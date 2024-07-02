@@ -1,0 +1,410 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    height: 100%;
+    width: 100%;
+}
+#nav-1st {
+    /* background-color: aquamarine; */
+    height: 60px;
+    width: 100%;
+    padding: 40px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+
+}
+.call-us {
+    color: rgb(111, 108, 108);
+}
+.call-us p {
+    color: black;
+    margin-left: 10px;
+    font-weight: 600;
+}
+.getstall {
+    margin-bottom: 25px;
+    margin-right: 50px;
+}
+.getstall h1 {
+    color: green;
+    margin-left:52px;
+
+}
+.getstall p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.account {
+    font-weight: bold;
+}
+#nav-2nd {
+    /* background-color: aquamarine; */
+    
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbar {
+    width: 390px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar a {
+    color: black;
+    text-decoration: none;
+    /* border: 2px solid grey; */
+}
+.navbar a:hover {
+    color: rgb(145, 82, 145);
+    border-bottom: 2px solid rgb(145, 82, 145);
+    font-weight: 700;
+}
+#image {
+    background-image: url("./main.jpg");
+    background-size: cover;
+    /* background-color: rgb(90, 192, 90); */
+    height: 350px;
+    width: 100%;
+    margin-top: 5px;
+}
+.img {
+    color: white;
+    height: 200px;
+    width: 30%;
+    margin-left: 100px;
+    position: relative;
+    top: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.img h2 {
+    /* background-color: red; */
+    width: 500px;
+    font-size: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.img a {
+    background-color: transparent;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100px;
+    border: 2px solid white;
+    padding: 5px 0px;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+#popular {
+    /* background-color: red; */
+    height: 60px;
+    width: 100%;
+    color: rgb(80, 171, 80);
+    padding: 20px 0px;
+    padding-left: 40px;
+    letter-spacing: 5px;
+
+}
+#category {
+    /* background-color: red; */
+    height: 70px;
+    width: 100%;
+    padding: 20px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fruits {
+    font-size: 18px;
+   font-weight: bold;
+}
+.fruits h5 {
+    margin-left: 30px;
+    font-size: 12px;
+    font-weight: 400;
+}
+.fruits a {
+    text-decoration: none;
+    color: black;
+}
+#four-img {
+    height: 400px;
+    width: 100%;
+    padding: 0px 40px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.st-img {
+    background-image: url("./pea.jpg");
+    background-size: cover;
+    /* background-color: red; */
+    height: 100%;
+    width: 46%;
+}
+.nd-img {
+    /* background-color: blue; */
+    height: 100%;
+    width: 29%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+.mini1-img{
+    background-image: url("./broccoli.jpg");
+    background-size: cover;
+    /* background-color: rgb(83, 76, 76); */
+    height: 49%;
+    width: 100%;
+
+}
+.mini-img {
+    background-image: url("./pexels-dana-tentis-118658-750073.jpg");
+    background-size: cover;
+    /* background-color: rgb(31, 54, 54); */
+    height: 49%;
+    width: 100%;
+}
+.rd-img {
+    background-image: url("./summer.jpg");
+    background-size: cover;
+    /* background-color: black; */
+    height: 100%;
+    width: 22%;
+}
+#letter {
+    height: 80px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#letter h3 {
+    
+    color: rgb(80, 171, 80);
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+#eight-img {
+    height: 700px;
+    width: 100%;
+    /* background-color: red; */
+
+}
+.forth-img {
+    height: 50%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+}
+.forth-img1 {
+    height: 100%;
+    width: 25%;
+    padding: 10px 10px;
+    /* background-color: bisque; */
+    border: 1px solid rgb(240, 234, 234);
+    
+}
+.forthmini-img {
+    height: 75%;
+    width: 100%;
+    background-image: url("./tomato.jpg");
+    background-size: cover;
+    /* background-color: grey; */
+    
+}
+.forthmini-img1 {
+    height: 75%;
+    width: 100%;
+    background-image: url("./banan.jpg");
+    background-size: cover;
+}
+.forthmini-img2 {
+    height: 75%;
+    width: 100%;
+    background-image: url("./grapes.jpg");
+    background-size: cover;
+}
+.forthmini-img3 {
+    height: 75%;
+    width: 100%;
+    background-image: url("./watrmelon.jpg");
+    background-size: cover;
+}
+.forthmini-img4 {
+    height: 75%;
+    width: 100%;
+    background-image: url("./strawberry.jpg");
+    background-size: cover;
+}
+.forthmini-img5 {
+    height: 75%;
+    width: 100%;
+    background-image: url("./cap.jpg");
+    background-size: cover;
+}
+.forthmini-img6 {
+    height: 75%;
+    width: 100%;
+    background-image: url("./asparagus.jpg");
+    background-size: cover;
+}
+.forthmini-img7 {
+    height: 75%;
+    width: 100%;
+    background-image: url("./mango.jpg");
+    background-size: cover;
+}
+.babyimg {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 7px;
+}
+.babyimg h3 {
+   
+}
+.babyimg h4 {
+   color: rgb(20, 119, 20);;
+}
+.babyimg button {
+    background-color: rgb(20, 119, 20);
+   color: white;
+   border: 1px solid rgb(20, 119, 20);
+   border-radius: 2px;
+   padding: 3px 8px;
+}
+.forth-img9 {
+    height: 50%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+    
+}
+#healthy {
+    height: 300px;
+    width: 100%;
+    /* background-color: azure; */
+    display: flex;
+    border-bottom: 1px solid grey;
+
+}
+.fru {
+    height: 100%;
+    width: 50%;
+    background-image: url("./fruits\ \(1\).jpg");
+    background-size: cover;
+    /* background-color: aqua; */
+}
+.health {
+    height: 100%;
+    width: 50%;
+    /* background-color: bisque; */
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.inner {
+    position: relative;
+    top: 50px;
+    left: 30px;
+    gap: 20px;
+    
+}
+.inner h3 {
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.inner p {
+    font-size: 1rem;
+    margin-top: 15px;
+    color: rgb(125, 122, 122);
+}
+.inner button {
+    background-color: rgb(20, 119, 20);
+    color: white;
+    border: 1px solid rgb(20, 119, 20);
+    border-radius: 2px;
+    padding: 6px 25px;
+    margin-top: 30px;
+}
+#footer {
+    height: 250px;
+    width: 100%;
+    padding: 20px 20px;
+    /* background-color: purple; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+.foot1 {
+    position: relative;
+    bottom: 25px;
+    /* background-color: red; */
+}
+.foot1 h1{
+    color: green;
+    margin-left:52px;
+}
+.foot1 p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.foot1 ul {
+    margin-top: 20px;
+    list-style: none;
+
+}
+.foot2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.foot2 h2 {
+    font-size: 1.2rem;
+    color: rgb(20, 119, 20);
+}
+.foot2 ul {
+    margin-top: 20px;
+}
+.foot2 li {
+    list-style: none;
+}
+.foot3 h3{
+    font-size: 1.2rem;
+    color: rgb(20, 119, 20) 
+}
+.foot3 p{
+    margin-top: 20px;
+}
+.foot3 input {
+    margin-top: 10px;
+    padding: 2px 20px;
+}
+.foot3 button {
+    background-color: rgb(20, 119, 20);
+    color: white;
+    border: 1px solid rgb(20, 119, 20);
+    border-radius: 2px;
+    padding: 6px 25px;
+    margin-top: 3px;
+}
